@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Mine Sweeper</title>
+</head>
+<body onload="init()">  
+    <div class="header">MINE SWEEPER</div>
+    <div class="smiley" onclick="init()">😄</div>
+    <div class="timer">00:00</div>
+    <div class="buttons">
+        <button type="button" onclick="init(4)">Beginner</button>
+        <button type="button" onclick="init(8)">Medium</button>
+        <button type="button" onclick="init(12)">Expert</button>
+    </div>
+    <div class="hints">
+        <div class="hint hint1" onclick="showHint(this)">💡</div>
+        <div class="hint hint2" onclick="showHint(this)">💡</div>
+        <div class="hint hint3" onclick="showHint(this)">💡</div>
+    </div>
+    <div class="livesCounter">3 LIVES LEFT</div>
+    <table>
+        <tbody></tbody>
+    </table>
+
+    <div class="best-score">The best score is
+        <div class="score"></div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+table {
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: rgb(201, 215, 221);
+    text-align: center;
+    cursor: pointer;
+}
+
+.hidden{
+    color: rgb(87, 151, 179);
+    background-color:rgb(87, 151, 179);
+}
+
+.smiley{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    height : 30px;
+    width : 30px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.timer{
+    text-align: center;
+    font-size: 2em;
+}
+
+.buttons{
+    text-align: center;
+    margin: auto;
+}
+
+.hint{
+    display: inline;
+    font-size: 30px;
+    cursor: pointer;
+
+
+}
+
+.hints{
+    text-align: center;
+    height: 40px;
+}
+
+.livesCounter{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.best-score{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.score{
+    display: inline;
+    text-align: center;
+}
