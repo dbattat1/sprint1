@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="main.css">
     <title>Mine Sweeper</title>
 </head>
-<body onload="init()">  
+<body onload="init(8)">
     <div class="header">MINE SWEEPER</div>
-    <div class="smiley" onclick="init()">😄</div>
+    <div class="smiley" onclick="init(8)">😄</div>
     <div class="timer">00:00</div>
     <div class="buttons">
         <button type="button" onclick="init(4)">Beginner</button>
@@ -25,8 +25,17 @@
         <tbody></tbody>
     </table>
 
+    <div class="safe-click">
+        <button type="button" onclick="showSafe()">Safe Click</button>
+        <div class ="clicks-available">3 clicks available</div>
+    </div>
+
     <div class="best-score">The best score is
         <div class="score"></div>
+    </div>
+
+    <div class="undo">
+        <button type="button" onclick="undo()">Undo</button>
     </div>
     
     <script src="main.js"></script>
